@@ -3,6 +3,7 @@ import Layout from "../layout";
 import Home from "../pages/home";
 import Favorite from "../pages/favorite";
 import List from "../pages/list";
+import SingleList from "../pages/singlelist";
 
  export const routers = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ import List from "../pages/list";
             {
                 path:"list",
                 element: <List />
+            },
+            {
+                path:"list/:id",
+                element: <SingleList />
             }
         ]
     }

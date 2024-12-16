@@ -1,0 +1,11 @@
+{
+
+"rewrites":[
+    {
+        "soruce":"/(.*)",
+        "destination":"/"
+    }
+]
+
+
+}

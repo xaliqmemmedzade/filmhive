@@ -1,6 +1,6 @@
 export function moviesAction(payload) {
     return {
-        type: "GET_MOVIES",
+        type:"GET_MOVIES",
         payload
     }
 }

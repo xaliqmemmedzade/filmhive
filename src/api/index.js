@@ -13,6 +13,3 @@ export const saveApi = axios.create({
     baseURL: saveApiURL
 })
 
-// export const keyApi = axios.create({
-//     baseURL: key
-// })
