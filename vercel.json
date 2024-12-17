@@ -2,7 +2,7 @@
 
 "rewrites":[
     {
-        "soruce":"/(.*)",
+        "source":"/(.*)",
         "destination":"/"
     }
 ]
